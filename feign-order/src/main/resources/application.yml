@@ -1,0 +1,14 @@
+server:
+  port: 81
+
+spring:
+  application:
+    name: order-feign-service
+
+eureka:
+  client:
+    #是否把自己注册进EurekaServer，默认true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:2001/eureka
+

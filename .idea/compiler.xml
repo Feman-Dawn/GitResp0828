@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="changgou-eureka" />
+        <module name="springboot0825" />
+        <module name="pay0825" />
+        <module name="feign-order" />
+        <module name="changgou-parent" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="changgou-eureka" target="8" />
+      <module name="changgou-parent" target="8" />
+      <module name="demo" target="1.8" />
+      <module name="feign-order" target="8" />
+      <module name="pay0825" target="8" />
+      <module name="springboot0825" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="changgou-eureka" options="" />
+      <module name="changgou-parent" options="" />
+      <module name="demo" options="-parameters" />
+      <module name="feign-order" options="" />
+      <module name="springboot0825" options="-parameters" />
+    </option>
+  </component>
+</project>
